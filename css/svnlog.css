@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 300px;
+  width: 4096px;
+  background-color:#333;
+}
+li.actionA a {
+    color: #0f0;
+}
+li.actionM a {
+	color: #cc0;
+}
+li.actionD a {
+	color: #900;
+}
+div#entryAuthor {
+	margin: 5px;
+}
+div#entryRev {
+	margin: 5px;
+	color: #ddd;
+	display: inline;
+}
+div#entryDate {
+	margin: 5px;
+	color: #ddd;
+	display: inline;
+}
+div#entryMsg {
+	margin: 5px;
+	color: #ddd;
+}
+div#entryPaths {
+	margin: 5px;
+	color: #ddd;
+}
+div#lbox {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+  width: 50%;
+  height: 300px;
+}
+div#rbox {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 50%;
+  height: 300px;
+}
+ul {
+	list-style: none;
+}

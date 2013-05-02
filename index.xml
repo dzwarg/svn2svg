@@ -1,0 +1,1311 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="index.xslt"?>
+<log>
+<logentry
+   revision="447">
+<author>mario</author>
+<date>2009-12-11T09:22:34.702832Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/portal.php</path>
+<path
+   action="M">/trunk/application/views/objects/objectcreate_view.php</path>
+<path
+   action="M">/trunk/assets/scripts/upclookup.js</path>
+<path
+   action="M">/trunk/application/libraries/GBase.php</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+<path
+   action="M">/trunk/assets/scripts/create.js</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+</paths>
+<msg>Create objects by UPC</msg>
+</logentry>
+<logentry
+   revision="446">
+<author>tim</author>
+<date>2009-12-11T03:59:11.703505Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/navigation_view.php</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+<path
+   action="A">/trunk/uploads</path>
+<path
+   action="M">/trunk/test/libraries/SMPartsParserTest.php</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/application/libraries/excel_reader2.php</path>
+<path
+   action="M">/trunk/application/libraries/SMPartsParser.php</path>
+</paths>
+<msg>first end-to-end working version of object uploading.  needs some tidying here and there.</msg>
+</logentry>
+<logentry
+   revision="445">
+<author>zwarg</author>
+<date>2009-12-09T23:10:21.425902Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+</paths>
+<msg>Move map back and forth when opening/closing the part list.</msg>
+</logentry>
+<logentry
+   revision="444">
+<author>zwarg</author>
+<date>2009-12-09T22:55:51.227532Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Added map repositioning when the map is constrained by the parts list.</msg>
+</logentry>
+<logentry
+   revision="443">
+<author>tim</author>
+<date>2009-12-08T21:45:50.064952Z</date>
+<paths>
+<path
+   action="A">/trunk/assets/scripts/import.js</path>
+<path
+   action="A">/trunk/docs/README_installation.txt</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+<path
+   action="A">/trunk/assets/styles/import.css</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="A">/trunk/docs/spreadsheet import design doc.txt</path>
+<path
+   action="A">/trunk/application/libraries/excel_reader2.php</path>
+<path
+   action="A">/trunk/application/views/objects/objectimport_view.php</path>
+<path
+   action="A">/trunk/application/libraries/SMPartsParser.php</path>
+</paths>
+<msg>initial checkin for excel import</msg>
+</logentry>
+<logentry
+   revision="442">
+<author>tim</author>
+<date>2009-12-08T14:25:44.076456Z</date>
+<paths>
+<path
+   action="A">/trunk/test</path>
+<path
+   action="A">/trunk/.project</path>
+<path
+   action="A">/trunk/test/data/PartsTest.xls</path>
+<path
+   action="A">/trunk/test/libraries/SMPartsParserTest.php</path>
+<path
+   action="A">/trunk/test/data</path>
+<path
+   action="A">/trunk/test/data/TravelTest.xls</path>
+<path
+   action="A">/trunk/test/libraries</path>
+</paths>
+<msg>added test for excel import</msg>
+</logentry>
+<logentry
+   revision="441">
+<author>tim</author>
+<date>2009-12-08T14:24:15.175043Z</date>
+<paths>
+<path
+   action="M">/trunk/application/helpers/mobile_helper.php</path>
+</paths>
+<msg>changed eregi to preg_match to get rid of deprecation warnings</msg>
+</logentry>
+<logentry
+   revision="440">
+<author>tim</author>
+<date>2009-12-08T14:22:23.260723Z</date>
+<paths>
+<path
+   action="M">/trunk/application/config/sampleconfig/samplesourcemap.php</path>
+</paths>
+<msg>added entry for setting default time zone</msg>
+</logentry>
+<logentry
+   revision="438">
+<author>mario</author>
+<date>2009-12-06T01:37:49.885704Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/styles/create.css</path>
+<path
+   action="M">/trunk/application/controllers/portal.php</path>
+<path
+   action="M">/trunk/application/views/portal_view.php</path>
+<path
+   action="M">/trunk/application/views/objects/objectcreate_view.php</path>
+<path
+   action="A">/trunk/assets/scripts/upclookup.js</path>
+<path
+   action="M">/trunk/application/libraries/GBase.php</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+<path
+   action="M">/trunk/assets/scripts/create.js</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+</paths>
+<msg>Changes in interaction with Google Base; additional object fields</msg>
+</logentry>
+<logentry
+   revision="437">
+<author>hock</author>
+<date>2009-12-02T02:26:24.416680Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+</paths>
+<msg>Shipping bug.</msg>
+</logentry>
+<logentry
+   revision="436">
+<author>hock</author>
+<date>2009-12-02T02:11:27.212290Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+</paths>
+<msg>Shipping bug.</msg>
+</logentry>
+<logentry
+   revision="435">
+<author>hock</author>
+<date>2009-12-02T01:38:35.852186Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+</paths>
+<msg>Shipping bug.</msg>
+</logentry>
+<logentry
+   revision="434">
+<author>hock</author>
+<date>2009-12-02T01:28:00.086514Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+</paths>
+<msg>Placemark bug.</msg>
+</logentry>
+<logentry
+   revision="433">
+<author>hock</author>
+<date>2009-12-01T23:04:42.906058Z</date>
+<paths>
+<path
+   action="M">/trunk/application/models/usersmodel.php</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+</paths>
+<msg>Hide private counts / glitches.</msg>
+</logentry>
+<logentry
+   revision="432">
+<author>hock</author>
+<date>2009-12-01T22:59:56.131050Z</date>
+<paths>
+<path
+   action="M">/trunk/application/models/usersmodel.php</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+</paths>
+<msg>Hide private counts</msg>
+</logentry>
+<logentry
+   revision="431">
+<author>hock</author>
+<date>2009-12-01T22:35:20.298180Z</date>
+<paths>
+<path
+   action="M">/trunk/application/models/usersmodel.php</path>
+<path
+   action="A">/trunk/application/views/sidebars/commentedmaps.php</path>
+<path
+   action="A">/trunk/application/views/sidebars/topmembers.php</path>
+<path
+   action="M">/trunk/application/views/objects/objectsingle_view.php</path>
+<path
+   action="M">/trunk/application/views/objects/objectcreate_view.php</path>
+<path
+   action="A">/trunk/application/views/sidebars/highlightedmaps.php</path>
+<path
+   action="M">/trunk/application/views/sidebars/devblog.php</path>
+<path
+   action="M">/trunk/assets/styles/sidebar.css</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+<path
+   action="A">/trunk/application/views/sidebars/favoritedmaps.php</path>
+<path
+   action="M">/trunk/application/controllers/home.php</path>
+<path
+   action="A">/trunk/assets/images/icons/objectsymbol-small.png</path>
+<path
+   action="A">/trunk/application/views/sidebars/complexmaps.php</path>
+</paths>
+<msg>Sourcemap Aggregators</msg>
+</logentry>
+<logentry
+   revision="430">
+<author>hock</author>
+<date>2009-11-30T23:55:17.959758Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/parts.js</path>
+<path
+   action="M">/trunk/application/views/footer_view.php</path>
+<path
+   action="M">/trunk/application/views/parts/partslist_view.php</path>
+<path
+   action="M">/trunk/application/libraries/SM_Controller.php</path>
+<path
+   action="M">/trunk/assets/scripts/create.js</path>
+<path
+   action="M">/trunk/application/controllers/parts.php</path>
+<path
+   action="M">/trunk/assets/scripts/main.js</path>
+<path
+   action="M">/trunk/assets/scripts/comments.js</path>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+<path
+   action="M">/trunk/assets/scripts/dashboard.js</path>
+</paths>
+<msg>Event Tracking, fix to part highlighting.</msg>
+</logentry>
+<logentry
+   revision="429">
+<author>hock</author>
+<date>2009-11-23T20:44:11.332517Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/footer_view.php</path>
+<path
+   action="M">/trunk/application/views/objects/objectslist_view.php</path>
+<path
+   action="M">/trunk/application/views/navigation_view.php</path>
+</paths>
+<msg>minor seo fixes</msg>
+</logentry>
+<logentry
+   revision="428">
+<author>hock</author>
+<date>2009-11-23T20:38:29.413758Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/header_view.php</path>
+</paths>
+<msg>added useless keywords</msg>
+</logentry>
+<logentry
+   revision="427">
+<author>hock</author>
+<date>2009-11-23T20:36:07.200148Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/header_view.php</path>
+</paths>
+<msg>added useless keywords</msg>
+</logentry>
+<logentry
+   revision="426">
+<author>hock</author>
+<date>2009-11-23T20:28:02.159027Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/header_view.php</path>
+</paths>
+<msg>Better description.</msg>
+</logentry>
+<logentry
+   revision="425">
+<author>hock</author>
+<date>2009-11-23T20:27:15.680187Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/header_view.php</path>
+</paths>
+<msg>Better description.</msg>
+</logentry>
+<logentry
+   revision="424">
+<author>hock</author>
+<date>2009-11-23T12:21:35.175382Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/header_view.php</path>
+</paths>
+<msg>Better description.</msg>
+</logentry>
+<logentry
+   revision="423">
+<author>hock</author>
+<date>2009-11-23T12:19:58.125723Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/header_view.php</path>
+</paths>
+<msg>Better description.</msg>
+</logentry>
+<logentry
+   revision="422">
+<author>hock</author>
+<date>2009-11-23T11:58:15.458496Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/header_view.php</path>
+</paths>
+<msg>Better description.</msg>
+</logentry>
+<logentry
+   revision="421">
+<author>hock</author>
+<date>2009-11-22T22:47:26.845948Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/feed_view.php</path>
+</paths>
+<msg>Feed improvements
+</msg>
+</logentry>
+<logentry
+   revision="420">
+<author>hock</author>
+<date>2009-11-22T22:46:56.172482Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/feed_view.php</path>
+</paths>
+<msg>Feed improvements
+</msg>
+</logentry>
+<logentry
+   revision="419">
+<author>hock</author>
+<date>2009-11-22T22:46:20.392421Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/feed_view.php</path>
+</paths>
+<msg>
+</msg>
+</logentry>
+<logentry
+   revision="418">
+<author>hock</author>
+<date>2009-11-22T22:44:00.022672Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/feed_view.php</path>
+</paths>
+<msg>feed improvements.</msg>
+</logentry>
+<logentry
+   revision="417">
+<author>hock</author>
+<date>2009-11-22T22:42:54.951446Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/feed_view.php</path>
+</paths>
+<msg>feed improvements.</msg>
+</logentry>
+<logentry
+   revision="416">
+<author>hock</author>
+<date>2009-11-22T22:41:23.990270Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/feed_view.php</path>
+<path
+   action="M">/trunk/application/views/header_view.php</path>
+</paths>
+<msg>feed improvements.</msg>
+</logentry>
+<logentry
+   revision="415">
+<author>hock</author>
+<date>2009-11-22T22:40:33.752523Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/feed_view.php</path>
+</paths>
+<msg>feed improvements.</msg>
+</logentry>
+<logentry
+   revision="414">
+<author>hock</author>
+<date>2009-11-22T22:30:45.971578Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/footer_view.php</path>
+<path
+   action="M">/trunk/application/views/navigation_view.php</path>
+<path
+   action="M">/trunk/assets/scripts/utilities.js</path>
+<path
+   action="M">/trunk/application/controllers/search.php</path>
+<path
+   action="M">/trunk/assets/scripts/main.js</path>
+</paths>
+<msg>now with uri segment search</msg>
+</logentry>
+<logentry
+   revision="413">
+<author>hock</author>
+<date>2009-11-22T20:35:58.971070Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/footer_view.php</path>
+</paths>
+<msg>Update google tracking code.</msg>
+</logentry>
+<logentry
+   revision="412">
+<author>hock</author>
+<date>2009-11-22T20:13:35.543444Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/sitemaps.php</path>
+</paths>
+<msg>Fixed time formatting.</msg>
+</logentry>
+<logentry
+   revision="411">
+<author>hock</author>
+<date>2009-11-22T19:54:39.692401Z</date>
+<paths>
+<path
+   action="M">/trunk/application/config/routes.php</path>
+<path
+   action="M">/trunk/application/controllers/sitemaps.php</path>
+</paths>
+<msg>Google sitemap generation.</msg>
+</logentry>
+<logentry
+   revision="410">
+<author>hock</author>
+<date>2009-11-22T08:33:36.009541Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/navigation_view.php</path>
+</paths>
+<msg>navigation update</msg>
+</logentry>
+<logentry
+   revision="409">
+<author>hock</author>
+<date>2009-11-21T01:39:40.488158Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/users/userslist_view.php</path>
+<path
+   action="M">/trunk/application/views/navigation_view.php</path>
+<path
+   action="M">/trunk/application/controllers/users.php</path>
+<path
+   action="M">/trunk/application/views/users_view.php</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+<path
+   action="M">/trunk/application/controllers/home.php</path>
+<path
+   action="M">/trunk/application/views/home_view.php</path>
+</paths>
+<msg>Updated info links to point to the new blog. Featured Objects added.</msg>
+</logentry>
+<logentry
+   revision="408">
+<author>hock</author>
+<date>2009-11-20T21:55:22.069408Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/navigation_view.php</path>
+<path
+   action="M">/trunk/application/views/sidebars/devblog.php</path>
+<path
+   action="M">/trunk/application/views/home_view.php</path>
+</paths>
+<msg>Updated info links to point to the new blog.</msg>
+</logentry>
+<logentry
+   revision="407">
+<author>hock</author>
+<date>2009-11-20T21:39:21.481288Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/visualizations/partslist.php</path>
+<path
+   action="M">/trunk/assets/styles/visualizations/receipt.css</path>
+</paths>
+<msg>Receipt confusion.</msg>
+</logentry>
+<logentry
+   revision="406">
+<author>hock</author>
+<date>2009-11-20T21:01:21.362431Z</date>
+<paths>
+<path
+   action="M">/trunk/application/models/commentsmodel.php</path>
+<path
+   action="M">/trunk/assets/scripts/comments.js</path>
+</paths>
+<msg>Addresses (#69)</msg>
+</logentry>
+<logentry
+   revision="405">
+<author>hock</author>
+<date>2009-11-20T20:43:29.961925Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/styles/visualizations/comments.css</path>
+</paths>
+<msg>Addresses (#76)</msg>
+</logentry>
+<logentry
+   revision="404">
+<author>hock</author>
+<date>2009-11-20T20:37:23.101501Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/objects/objectslist_view.php</path>
+</paths>
+<msg>Addresses #78</msg>
+</logentry>
+<logentry
+   revision="403">
+<author>hock</author>
+<date>2009-11-20T20:31:58.263077Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/parts/partslist_view.php</path>
+<path
+   action="M">/trunk/application/views/visualizations/partslist.php</path>
+<path
+   action="M">/trunk/application/views/parts/partsingle_view.php</path>
+<path
+   action="A">/trunk/license/agpl-3.0.txt</path>
+<path
+   action="A">/trunk/license</path>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+<path
+   action="M">/trunk/assets/styles/visualizations/partslist.css</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/application/controllers/parts.php</path>
+<path
+   action="A">/trunk/license/mit.txt</path>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+<path
+   action="M">/trunk/assets/scripts/OpenLayers-2.8/theme/default/style.css</path>
+</paths>
+<msg>Various bug fixes, added licensing.</msg>
+</logentry>
+<logentry
+   revision="402">
+<author>zwarg</author>
+<date>2009-11-18T19:55:37.015160Z</date>
+<paths>
+<path
+   action="M">/trunk/application/helpers/googlemaps_helper.php</path>
+</paths>
+<msg>Added sourcemap.media.mit.edu to googlehelper.php</msg>
+</logentry>
+<logentry
+   revision="401">
+<author>zwarg</author>
+<date>2009-11-18T19:29:01.856132Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Check to see if userLocation is null before removing.</msg>
+</logentry>
+<logentry
+   revision="400">
+<author>zwarg</author>
+<date>2009-11-11T20:54:50.993332Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Added zoom to click point.</msg>
+</logentry>
+<logentry
+   revision="399">
+<author>hock</author>
+<date>2009-11-11T20:45:31.754125Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+<path
+   action="M">/trunk/assets/styles/mapembed.css</path>
+<path
+   action="M">/trunk/application/views/map/printmap_view.php</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/application/views/embeds/embedmap_view.php</path>
+<path
+   action="M">/trunk/application/controllers/map.php</path>
+<path
+   action="M">/trunk/assets/scripts/OpenLayers-2.8/theme/default/style.css</path>
+</paths>
+<msg>Updated the rest of map to use the google ajax autoload, max-width for embeds, bug fixes to print and embed sizing.</msg>
+</logentry>
+<logentry
+   revision="398">
+<author>zwarg</author>
+<date>2009-11-11T20:18:15.021583Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Added destination toggling off.</msg>
+</logentry>
+<logentry
+   revision="397">
+<author>hock</author>
+<date>2009-11-11T01:40:45.586296Z</date>
+<paths>
+<path
+   action="M">/trunk/application/helpers/kml_helper.php</path>
+</paths>
+<msg>Improved kml output for html content.</msg>
+</logentry>
+<logentry
+   revision="396">
+<author>hock</author>
+<date>2009-11-10T04:12:32.856155Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+</paths>
+<msg>Now using autoloading google ajax api, save the second or so delay before the maps actually load post ajax api load.</msg>
+</logentry>
+<logentry
+   revision="395">
+<author>hock</author>
+<date>2009-11-10T03:52:16.024310Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+</paths>
+<msg>Implemented a new caching strategy, currently only implemented in the part chooser for caching complex strings. Locking may be an issue, but if this works, we'll implement it in other costly (but infrequently changed) areas.</msg>
+</logentry>
+<logentry
+   revision="394">
+<author>hock</author>
+<date>2009-11-10T02:22:31.206650Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/objects/objectslist_view.php</path>
+<path
+   action="M">/trunk/application/views/objects/objectsingle_view.php</path>
+<path
+   action="A">/trunk/application/helpers/utilities_helper.php</path>
+<path
+   action="M">/trunk/application/config/autoload.php</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+</paths>
+<msg>Added php utlities helper to provide some global decoding functions more compatible with javascript, should fix description decode bug. Also should fix php errors Tim reported.</msg>
+</logentry>
+<logentry
+   revision="393">
+<author>hock</author>
+<date>2009-11-09T20:19:49.308858Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Added the capability for the object origin bubble to show it's description.</msg>
+</logentry>
+<logentry
+   revision="392">
+<author>hock</author>
+<date>2009-11-09T06:52:02.182476Z</date>
+<paths>
+<path
+   action="A">/trunk/server/databases/1-initialschema.sql</path>
+<path
+   action="D">/trunk/server/databases/10-14-2009.sql</path>
+</paths>
+<msg>Updated initial schema (and named it clearly) while we're in sql transition. Added parts_instantiated linkid update (linkid is now varchar 128).</msg>
+</logentry>
+<logentry
+   revision="391">
+<author>mario</author>
+<date>2009-11-08T01:16:15.188229Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/portal.php</path>
+<path
+   action="M">/trunk/application/views/portal_view.php</path>
+</paths>
+<msg>Reverted temporary Portal changes</msg>
+</logentry>
+<logentry
+   revision="390">
+<author>mario</author>
+<date>2009-11-08T01:06:05.045818Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/portal.php</path>
+</paths>
+<msg>Portal</msg>
+</logentry>
+<logentry
+   revision="389">
+<author>mario</author>
+<date>2009-11-08T01:03:38.585577Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/portal.php</path>
+</paths>
+<msg>Portal changes</msg>
+</logentry>
+<logentry
+   revision="388">
+<author>mario</author>
+<date>2009-11-08T00:59:20.913597Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/portal.php</path>
+<path
+   action="M">/trunk/application/views/portal_view.php</path>
+<path
+   action="M">/trunk/application/controllers/carbonto.php</path>
+<path
+   action="M">/trunk/application/libraries/GBase.php</path>
+<path
+   action="M">/trunk/application/controllers/researchtools.php</path>
+</paths>
+<msg>GBase/Portal Changes (1 of several)</msg>
+</logentry>
+<logentry
+   revision="387">
+<author>hock</author>
+<date>2009-11-05T16:44:34.337684Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Changed check method for valid chart data.</msg>
+</logentry>
+<logentry
+   revision="386">
+<author>hock</author>
+<date>2009-11-05T16:43:35.685407Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Debugging charts.</msg>
+</logentry>
+<logentry
+   revision="385">
+<author>hock</author>
+<date>2009-11-05T16:42:27.910172Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Debugging charts.</msg>
+</logentry>
+<logentry
+   revision="384">
+<author>hock</author>
+<date>2009-11-05T16:40:56.982778Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Debugging charts.</msg>
+</logentry>
+<logentry
+   revision="383">
+<author>hock</author>
+<date>2009-11-05T16:40:08.478130Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Debugging charts.</msg>
+</logentry>
+<logentry
+   revision="382">
+<author>hock</author>
+<date>2009-11-05T16:37:52.442419Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Debugging charts.</msg>
+</logentry>
+<logentry
+   revision="381">
+<author>zwarg</author>
+<date>2009-11-04T21:57:07.544316Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+<path
+   action="M">/trunk/application/views/embeds/embedmap_view.php</path>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Added logic for geolocation in the widget.  Otherwise, no last leg.</msg>
+</logentry>
+<logentry
+   revision="380">
+<author>zwarg</author>
+<date>2009-11-04T19:55:53.576654Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Fixed ticket 36 with logic checking 0,0 line length from object origin to part origin.</msg>
+</logentry>
+<logentry
+   revision="379">
+<author>zwarg</author>
+<date>2009-11-04T19:15:03.501479Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/chooser.js</path>
+</paths>
+<msg>Moved sortwithcolor method in chooser outside of init method.</msg>
+</logentry>
+<logentry
+   revision="378">
+<author>hock</author>
+<date>2009-11-04T04:43:45.598280Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/info.php</path>
+</paths>
+<msg>Test. </msg>
+</logentry>
+<logentry
+   revision="377">
+<author>hock</author>
+<date>2009-11-04T03:08:32.745287Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/info.php</path>
+</paths>
+<msg>Test. </msg>
+</logentry>
+<logentry
+   revision="376">
+<author>hock</author>
+<date>2009-11-04T02:35:43.540626Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/sidebars/devblog.php</path>
+</paths>
+<msg>Test of new repository, fixing path in simple pie cache.</msg>
+</logentry>
+<logentry
+   revision="375">
+<author>hock</author>
+<date>2009-11-03T06:30:40.405552Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Decoding should only happen after part add (see ticket #50)</msg>
+</logentry>
+<logentry
+   revision="374">
+<author>hock</author>
+<date>2009-11-03T06:28:53.977262Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+<path
+   action="M">/trunk/application/config/sampleconfig/samplesourcemap.php</path>
+</paths>
+<msg>Decoding should only happen after part add (see ticket #50)</msg>
+</logentry>
+<logentry
+   revision="373">
+<author>hock</author>
+<date>2009-11-03T06:11:20.376398Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Decoding should only happen after part add (see ticket #50)</msg>
+</logentry>
+<logentry
+   revision="372">
+<author>hock</author>
+<date>2009-11-03T06:09:57.893587Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Minor openlayers tweak (description in partlist may not be set - AND may not be decoded.</msg>
+</logentry>
+<logentry
+   revision="371">
+<author>hock</author>
+<date>2009-11-03T06:07:29.202948Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Minor openlayers tweak (description in partlist may not be set)</msg>
+</logentry>
+<logentry
+   revision="370">
+<author>hock</author>
+<date>2009-11-03T02:41:12.280534Z</date>
+<paths>
+<path
+   action="M">/trunk/server/min/index.php</path>
+</paths>
+<msg>Combined config file! Config.php, database.php and minify.php are now all under version control, but the sourcemap.php file is not. It contains all of the variable configuration options.</msg>
+</logentry>
+<logentry
+   revision="369">
+<author>hock</author>
+<date>2009-11-03T02:38:01.857500Z</date>
+<paths>
+<path
+   action="M">/trunk/index.php</path>
+<path
+   action="M">/trunk/system/codeigniter/Common.php</path>
+<path
+   action="A">/trunk/application/config/database.php</path>
+<path
+   action="A">/trunk/application/config/config.php</path>
+<path
+   action="M">/trunk/system/database/DB.php</path>
+<path
+   action="M">/trunk/application/config/sampleconfig/samplesourcemap.php</path>
+<path
+   action="D">/trunk/application/config/sampleconfig/sampledatabase.php</path>
+<path
+   action="D">/trunk/application/config/sampleconfig/sampleconfig.php</path>
+<path
+   action="M">/trunk/application/libraries/Documentate.php</path>
+<path
+   action="M">/trunk/application/views/navigation_view.php</path>
+<path
+   action="M">/trunk/application/controllers/sitemaps.php</path>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+<path
+   action="M">/trunk/application/controllers/home.php</path>
+<path
+   action="M">/trunk/application/libraries/SM_Controller.php</path>
+<path
+   action="M">/trunk/application/config/minify.php</path>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+</paths>
+<msg>Combined config file! Config.php, database.php and minify.php are now all under version control, but the sourcemap.php file is not. It contains all of the variable configuration options.</msg>
+</logentry>
+<logentry
+   revision="368">
+<author>dzwarg</author>
+<date>2009-11-02T22:13:18.504586Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+</paths>
+<msg>Fixed phantom part when object removed.</msg>
+</logentry>
+<logentry
+   revision="367">
+<author>dzwarg</author>
+<date>2009-11-02T21:27:37.804701Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/openlayers_map.js</path>
+</paths>
+<msg>Fixed ticket #48</msg>
+</logentry>
+<logentry
+   revision="366">
+<author>hock</author>
+<date>2009-11-02T05:50:56.759393Z</date>
+<paths>
+<path
+   action="A">/trunk/application/libraries/Documentate.php</path>
+<path
+   action="M">/trunk/index.php</path>
+<path
+   action="M">/trunk/application/views/map/globemap_view.php</path>
+<path
+   action="M">/trunk/application/libraries/Sitemap.php</path>
+</paths>
+<msg>Preparing Dump</msg>
+</logentry>
+<logentry
+   revision="365">
+<author>hock</author>
+<date>2009-11-02T02:10:40.213386Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/messagebar.js</path>
+</paths>
+<msg>Messagebar fix.</msg>
+</logentry>
+<logentry
+   revision="364">
+<author>hock</author>
+<date>2009-11-02T01:59:50.900357Z</date>
+<paths>
+<path
+   action="M">/trunk/application/helpers/kml_helper.php</path>
+<path
+   action="M">/trunk/application/views/objects/objectsingle_view.php</path>
+<path
+   action="M">/trunk/application/views/parts/partschooser_view.php</path>
+<path
+   action="M">/trunk/system/libraries/Output.php</path>
+<path
+   action="M">/trunk/application/libraries/SM_Controller.php</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/application/controllers/parts.php</path>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+</paths>
+<msg>Part chooser no longer loaded dynamically. General fixes.</msg>
+</logentry>
+<logentry
+   revision="363">
+<author>hock</author>
+<date>2009-11-01T23:29:39.011171Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Charting fix.</msg>
+</logentry>
+<logentry
+   revision="362">
+<author>hock</author>
+<date>2009-11-01T23:28:06.121904Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/editor.js</path>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Charting fix.</msg>
+</logentry>
+<logentry
+   revision="361">
+<author>hock</author>
+<date>2009-11-01T22:15:21.575194Z</date>
+<paths>
+<path
+   action="M">/trunk/assets/scripts/object.js</path>
+<path
+   action="M">/trunk/assets/scripts/widgets.js</path>
+</paths>
+<msg>Charting fix.</msg>
+</logentry>
+<logentry
+   revision="360">
+<author>hock</author>
+<date>2009-11-01T21:54:12.417839Z</date>
+<paths>
+<path
+   action="M">/trunk/application/views/map/fullmap_view.php</path>
+<path
+   action="M">/trunk/application/views/objects/objectsingle_view.php</path>
+<path
+   action="M">/trunk/application/views/map/globemap_view.php</path>
+<path
+   action="M">/trunk/application/controllers/map.php</path>
+</paths>
+<msg>Globe view fixes.</msg>
+</logentry>
+<logentry
+   revision="359">
+<author>hock</author>
+<date>2009-11-01T02:56:58.510987Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/users.php</path>
+<path
+   action="M">/trunk/application/controllers/home.php</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/application/controllers/parts.php</path>
+<path
+   action="M">/trunk/application/controllers/transport.php</path>
+</paths>
+<msg>Cache Fail</msg>
+</logentry>
+<logentry
+   revision="358">
+<author>hock</author>
+<date>2009-11-01T02:42:42.494418Z</date>
+<paths>
+<path
+   action="M">/trunk/system/libraries/Output.php</path>
+<path
+   action="M">/trunk/application/libraries/SM_Controller.php</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+</paths>
+<msg>Cache!</msg>
+</logentry>
+<logentry
+   revision="357">
+<author>hock</author>
+<date>2009-11-01T02:38:25.133174Z</date>
+<paths>
+<path
+   action="M">/trunk/system/libraries/Output.php</path>
+</paths>
+<msg>Humanreadable caching.</msg>
+</logentry>
+<logentry
+   revision="356">
+<author>hock</author>
+<date>2009-11-01T02:33:46.763714Z</date>
+<paths>
+<path
+   action="M">/trunk/system/libraries/Output.php</path>
+</paths>
+<msg>Humanreadable caching.</msg>
+</logentry>
+<logentry
+   revision="355">
+<author>hock</author>
+<date>2009-11-01T02:32:49.011231Z</date>
+<paths>
+<path
+   action="M">/trunk/system/libraries/Output.php</path>
+</paths>
+<msg>Humanreadable caching.</msg>
+</logentry>
+<logentry
+   revision="354">
+<author>hock</author>
+<date>2009-11-01T02:29:10.795305Z</date>
+<paths>
+<path
+   action="M">/trunk/system/libraries/Output.php</path>
+</paths>
+<msg>Humanreadable caching.</msg>
+</logentry>
+<logentry
+   revision="353">
+<author>hock</author>
+<date>2009-11-01T02:23:59.421728Z</date>
+<paths>
+<path
+   action="M">/trunk/system/libraries/Output.php</path>
+<path
+   action="M">/trunk/application/libraries/SM_Controller.php</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+</paths>
+<msg>Humanreadable caching.</msg>
+</logentry>
+<logentry
+   revision="352">
+<author>hock</author>
+<date>2009-11-01T02:07:20.683802Z</date>
+<paths>
+<path
+   action="M">/trunk/application/libraries/SM_Controller.php</path>
+</paths>
+<msg>Caching issues-still.</msg>
+</logentry>
+<logentry
+   revision="351">
+<author>hock</author>
+<date>2009-11-01T02:03:39.364616Z</date>
+<paths>
+<path
+   action="M">/trunk/application/libraries/SM_Controller.php</path>
+</paths>
+<msg>Caching issues.</msg>
+</logentry>
+<logentry
+   revision="350">
+<author>hock</author>
+<date>2009-11-01T01:58:21.371192Z</date>
+<paths>
+<path
+   action="M">/trunk/application/libraries/SM_Controller.php</path>
+</paths>
+<msg>Caching issues.</msg>
+</logentry>
+<logentry
+   revision="349">
+<author>hock</author>
+<date>2009-11-01T01:48:11.436248Z</date>
+<paths>
+<path
+   action="M">/trunk/application/models/objectsmodel.php</path>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+</paths>
+<msg>Caching issues.</msg>
+</logentry>
+<logentry
+   revision="348">
+<author>hock</author>
+<date>2009-11-01T01:28:31.328584Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+</paths>
+<msg>Caching issues.</msg>
+</logentry>
+<logentry
+   revision="347">
+<author>hock</author>
+<date>2009-11-01T01:02:43.373767Z</date>
+<paths>
+<path
+   action="M">/trunk/application/controllers/objects.php</path>
+<path
+   action="M">/trunk/application/controllers/parts.php</path>
+</paths>
+<msg>Fixed Add existing object part.</msg>
+</logentry>
+</log>
